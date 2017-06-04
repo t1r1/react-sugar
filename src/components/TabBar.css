@@ -1,0 +1,10 @@
+.tab-bar {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-bar .tab {
+    width: 25%;
+}

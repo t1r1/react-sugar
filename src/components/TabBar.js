@@ -23,8 +23,9 @@ export default class TabBar extends Component {
             tab.active = (tab.name === tabName)
         })
         this.setState({
-            tabs
+            tabs: tabs
         })
+        this.props.onTabSwitched(tabName)
     }
 
     render() {
